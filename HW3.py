@@ -97,3 +97,8 @@ for i in range(0, len(array_with_numbers)):
      if unique == 1:
          result.append(array_with_numbers[i])
 print(result)
+
+# counter = 0
+# for num in array_with_numbers:
+#       if count[num] ==
+#
