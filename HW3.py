@@ -90,15 +90,17 @@ print(x[3:20:3])  # 'nesgt'
 # Напишите программу, которая будет выводить уникальное число
 
 print ("\n Task 10 \n ---------------------------")
-array_with_numbers = [1, 5, 2, 9, 2, 9, 1]
-result = []
-for i in range(0, len(array_with_numbers)):
-     unique = array_with_numbers.count(array_with_numbers[i])
-     if unique == 1:
-         result.append(array_with_numbers[i])
-print(result)
+# array_with_numbers = [1, 5, 2, 9, 2, 9, 1]
+# result = []
+# for i in range(0, len(array_with_numbers)):
+#      unique = array_with_numbers.count(array_with_numbers[i])
+#      if unique == 1:
+#          result.append(array_with_numbers[i])
+# print(result)
 
-# counter = 0
-# for num in array_with_numbers:
-#       if count[num] ==
-#
+arr = [1, 5, 2, 9, 2, 9, 1]
+unique = ""
+for i in range(arr[0], len(arr)):
+    if (arr.count(arr[i]) == 1):
+        unique += str(arr[i]) + " "
+print(unique.strip())

@@ -28,3 +28,13 @@ del school["2C"]
 # 4
 
 print(school)
+
+# 5
+a = { 'a': 1, 'b': 2, 'c': 3}
+b = { 'c': 3, 'd': 4,'e': 5}
+
+c = {}
+for key in set(a.keys()) | set(b.keys()):
+    c[key] = [a.get(key), b.get(key)]
+sorted_c = dict(sorted(c.items()))
+print(sorted_c)
