@@ -64,7 +64,7 @@ print(whole_school)
 print ("\n Task 7 \n ---------------------------")
 import random
 size = 10
-array = [random.randint(1, 100) for i in range(size)]
+array = [random.randint(1, 100) for _ in range(size)]
 print("Randomly generated array: ",array)
 print("2nd element off array: ",array[1])
 
