@@ -40,4 +40,4 @@ def lexical_increase(dictionary):
     return result
 
 print(lexical_increase("1 2 3 4"))
-print(lexical_increase("1 2 3 4 12 13 19 25"))
+print(lexical_increase("1 2 3 4 6"))
